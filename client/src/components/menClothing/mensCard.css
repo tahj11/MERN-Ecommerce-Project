@@ -1,0 +1,32 @@
+.mensCard {
+    display: flex;
+    justify-content: center;
+}
+
+.mens__card {
+    position: relative;
+    margin-top: 30px;
+    background-color: #ffd0b6;
+    height: 400px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #F0F8FF;
+    cursor: pointer;
+    /* background-image: url("https: //i.ytimg.com/vi/GHsnyxh_osI/maxresdefault.jpg"); */
+}
+
+.mens__card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.mens__card span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}

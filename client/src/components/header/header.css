@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.header {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+}
+
+.sub-heading {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.deals-circle {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: #F0F0F0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.circle-deals {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        cursor: pointer;
+        font-weight: 500;
+}
+
+.deal-hover {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.circle .deals {
+    background-color: red;
+}

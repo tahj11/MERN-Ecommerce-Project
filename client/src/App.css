@@ -1,0 +1,22 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.cart__button {
+  background-color: red;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  color: white;
+}

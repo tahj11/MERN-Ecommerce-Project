@@ -1,0 +1,28 @@
+.Box {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 400px;
+    width: 1300px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.card__discount {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #DC143C;
+    height: 300px;
+    width: 300px;
+    border-radius: 0;
+}
+
+.details {
+    display: flex;
+    color: #F5F5F5;
+    font-size: 30px;
+    align-items: center;
+}
