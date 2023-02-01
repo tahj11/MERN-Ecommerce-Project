@@ -35,7 +35,7 @@ function Navbar() {
               <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/landing">Sign In</NavLink>
+              <NavLink to="/landing">Sign In/Register</NavLink>
             </li>
           </ul>
         </div>
