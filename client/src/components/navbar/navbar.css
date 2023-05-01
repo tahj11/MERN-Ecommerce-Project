@@ -30,7 +30,9 @@ body {
     display: none;
 }
 
-.nav-elements {}
+.nav-elements a:hover{
+    /* background-color: #CD5C5C; */
+}
 
 .nav-elements ul {
     display: flex;
